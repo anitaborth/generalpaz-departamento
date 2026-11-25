@@ -97,7 +97,6 @@ function Icon({ name, size = 22 }: { name: IconName; size?: number }) {
         <ellipse cx="5" cy="9" rx="2" ry="3" />
         <ellipse cx="11" cy="5" rx="2" ry="3" />
         <ellipse cx="18" cy="7" rx="2" ry="3" />
-        <path d="m2 2 20 20" />
       </>
     ),
     close: <path d="m6 6 12 12M6 18 18 6" />,
@@ -352,7 +351,7 @@ export default function App() {
             </p>
             <div className="pet-note">
               <Icon name="pet" size={17} />
-              No se aceptan mascotas.
+              Se aceptan mascotas.
             </div>
           </div>
           <div className="flyer-contact">
